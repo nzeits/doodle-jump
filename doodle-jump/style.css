@@ -1,0 +1,24 @@
+.grid{
+    width: 400px;
+    height: 600px;
+    background-image: url(assets/white-crumpled-paper-texture-background.jpg);
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-image: url(assets/doodler_2.png);
+    position: absolute; 
+    /* to make sure position is absolute inside our grid. where as grid is relative to our browser*/
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background-image: url(assets/platform_3.png);
+    position: absolute;
+}
